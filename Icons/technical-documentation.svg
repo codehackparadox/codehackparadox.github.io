@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<title>technical-documentation-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M15 1.5L15 14.5C15 15.32 14.32 16 13.5 16L1.5 16C0.68 16 0 15.32 0 14.5L0 1.5C0 0.68 0.68 0 1.5 0L13.5 0C14.32 0 15 0.68 15 1.5ZM13 2L2 2L2 14L13 14L13 2ZM4 9L11 9L11 10L4 10L4 9ZM4 11L11 11L11 12L4 12L4 11ZM5 4.5C5 3.67 5.67 3 6.5 3C7.33 3 8 3.67 8 4.5C8 5.33 7.33 6 6.5 6C5.67 6 5 5.33 5 4.5ZM9 7L9 8L4 8L4 7C4 6.45 4.67 6 5.5 6L7.5 6C8.32 6 9 6.45 9 7Z" />
+</svg>
