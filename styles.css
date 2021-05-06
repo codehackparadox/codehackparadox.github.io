@@ -6,6 +6,19 @@
 body {
     font-family: "Lato";
     font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 80px;
+    color: #c1b8af;
+    text-align: center;
+    padding: 20px;
 }
 
 ul {
@@ -24,6 +37,10 @@ hr {
 footer {
     display: flex;
     justify-content: space-between;
+}
+
+footer p {
+    color: grey;
 }
 
 /* Nav styles */
@@ -70,64 +87,45 @@ footer {
 }
 
 /* Welcome section sytles */
-#welcome-section {
+.welcome-section {
+    background-image: url(./Images/bernard-hermant-X-Bu9X6gok0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: brightness(70%);
+}
+
+.welcome-inner-section p {
+    font-size: 30px;
+}
+
+.welcome-inner-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 280px;
-    padding-top: 0px;
-    margin-top: 0px;
+    padding: 0;
     height: 100vh;
+    color: white;
 }
 
+/* About section styles */
 #about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 280px;
-}
-
-/* Footer styles */
-.right-footer {
-    display: flex;
-    padding-top: 50px;
-    padding-right: 150px;
-    padding-bottom: 90px;
-}
-
-.left-footer {
-    padding-top: 50px;
-    padding-bottom: 90px;
-    padding-left: 150px;
-}
-
-.footer-mail ul {
-    display: flex;
-}
-
-.footer-mail ul li {
-    margin: 10px;
-}
-
-.footer-instagram ul {
-    display: flex;
-}
-
-.footer-instagram ul li {
-    margin: 10px;
-}
-
-.footer-github ul {
-    display: flex;
-}
-
-.footer-github ul li {
-    margin: 10px;
+    height: 100vh;
+    margin-right: 280px;
+    margin-left: 280px;
 }
 
 /* Portfolio styles */
+#projects {
+    height: 100vh;
+}
+
 .project-tiles {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -135,6 +133,7 @@ footer {
 
 .project-tile {
     position: relative;
+    padding: 20px;
 }
 
 .project-img-background {
@@ -176,6 +175,62 @@ footer {
 .img-darken {
     transition: 1s;
     filter: brightness(30%);
+}
+
+/* Ko-fi styles */
+.ko-fi-wrapper {
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 0 5px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 150px;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 50px;
+    border: none;
+    background-color: #29abe0;
+
+}
+
+/* Footer styles */
+.right-footer {
+    display: flex;
+    padding-right: 150px;
+}
+
+.left-footer {
+    padding-top: 10px;
+    padding-left: 150px;
+}
+
+.footer-mail ul {
+    display: flex;
+}
+
+.footer-mail ul li {
+    margin: 10px;
+}
+
+.footer-instagram ul {
+    display: flex;
+}
+
+.footer-instagram ul li {
+    margin: 10px;
+}
+
+.footer-github ul {
+    display: flex;
+}
+
+.footer-github ul li {
+    margin: 10px;
 }
 
 /* Other styles */
