@@ -291,8 +291,12 @@ footer p {
         flex-direction: column;
     }
 
+    #projects {
+        margin-bottom: 170%;
+    }
+
     .ko-fi-wrapper {
-        margin: 100%;
+        margin-bottom: 5%;
     }
 
     footer {
@@ -319,14 +323,4 @@ footer p {
     .footer-github ul li {
         margin: 2px;
     }
-    
-    /*
-    .footer-mail li {
-        margin: 2px;
-    }
-
-    .footer-mail ul {
-        margin: 2px;
-    }
-    */
 }
