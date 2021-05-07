@@ -308,7 +308,6 @@ footer p {
         padding-right: 25px;
     }
     
-    /*
     .footer-mail ul li {
         margin: 2px;
     }
@@ -320,8 +319,8 @@ footer p {
     .footer-github ul li {
         margin: 2px;
     }
-    */
-
+    
+    /*
     .footer-mail li {
         margin: 2px;
     }
@@ -329,4 +328,5 @@ footer p {
     .footer-mail ul {
         margin: 2px;
     }
+    */
 }
