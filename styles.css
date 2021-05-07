@@ -260,6 +260,10 @@ footer p {
     .welcome-inner-section {
         text-align: center;
     }
+    
+    .welcome-inner-section p {
+        font-size: 20px;
+    }
 
     #about {
         display: flex;
