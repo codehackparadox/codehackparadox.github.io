@@ -182,7 +182,7 @@ footer p {
 /* Ko-fi styles */
 .ko-fi-wrapper {
     display: inline-block;
-    text-align: center;
+    justify-content: center;
     box-shadow: 0 0 5px;
     border-radius: 10px;
     padding: 30px;
@@ -237,8 +237,12 @@ footer p {
 
 /* Other styles */
 @media screen and (max-width: 768px) {
+    h1 {
+        font-size: 70px;
+    }
+
     #navbar {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .left-nav {
@@ -260,7 +264,7 @@ footer p {
     .welcome-inner-section {
         text-align: center;
     }
-    
+
     .welcome-inner-section p {
         font-size: 20px;
     }
@@ -271,12 +275,20 @@ footer p {
         justify-content: center;
         align-items: center;
         height: 100vh;
-        margin-right: 150px;
-        margin-left: 150px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    h2 {
+        font-size: 50px;
     }
 
     .project-tiles {
         display: flex;
         flex-direction: column;
+    }
+
+    footer {
+        display: block;
     }
 }
